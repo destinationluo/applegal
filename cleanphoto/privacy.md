@@ -49,7 +49,7 @@ Purchase receipts remain on-device until you delete the App; deleting the App re
 | **Withdraw analytics sharing** | iOS Settings › Privacy & Security › Analytics & Improvements › turn off “Share with App Developers”. |
 | **Delete all data** | Delete the App – this removes receipts, cached thumbnails, and settings. |
 | **Restore purchase** | Tap “Restore Purchase” in Settings inside the App; no new data is created. |
-| **Contact us / request info** | Email **support@yourdomain.com** – we respond within 30 days. |
+| **Contact us / request info** | Email **moguiris133@gmail.com** – we respond within 30 days. |
 
 Residents of the EU/EEA (GDPR) and California (CCPA) have the right to access, correct, or erase personal data; contact us as above.
 
