@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Client Ledger Help</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f4f7fb; --panel: #ffffff; --text: #172033; --muted: #586579; --accent: #0a67d8; --border: #dce4ef; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.65; background: var(--bg); color: var(--text); }
+    .page { max-width: 880px; margin: 0 auto; padding: 48px 20px 72px; }
+    .card { background: var(--panel); border: 1px solid var(--border); border-radius: 18px; padding: clamp(24px, 5vw, 40px); box-shadow: 0 18px 50px rgba(23, 32, 51, .08); }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; }
+    h2 { margin-top: 36px; font-size: 1.28rem; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); font-weight: 700; }
+    .meta { margin-top: 0; color: var(--accent); font-weight: 700; }
+    .summary { padding: 16px 18px; border: 1px solid var(--border); border-radius: 12px; background: color-mix(in srgb, var(--accent) 8%, transparent); color: var(--text); font-weight: 650; }
+    nav { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--border); }
+    footer { margin-top: 42px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: .92rem; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0b1017; --panel: #151c26; --text: #f3f7fd; --muted: #b8c3d3; --accent: #75b5ff; --border: #2d3a4c; } .card { box-shadow: none; } }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <article class="card">
+      <h1>Client Ledger Help</h1>
+      <p class="meta">Last updated: July 25, 2026</p>
+      <p class="summary">Client Ledger is a local-first way to keep track of what clients owe, record payments, and follow up at the right time. It is not a bank, payment processor, accounting service, or debt-collection service.</p>
+
+      <h2>Get started</h2>
+      <ol>
+        <li>Add a client from the Clients tab. You can enter a name yourself or choose one contact with the iPhone contact picker.</li>
+        <li>Record a charge when you bill or complete work.</li>
+        <li>Record a payment when you receive it. The client balance and Today view update automatically.</li>
+        <li>Add a promised payment date when a client tells you when they expect to pay.</li>
+      </ol>
+
+      <h2>Today and clients</h2>
+      <p>The Today tab groups balances that need attention. The Clients tab shows every client, including archived clients. Open a client to review their activity, add a charge or payment, set a follow-up date, or create a statement to share.</p>
+      <p>Client Ledger tracks information that you enter. Please review amounts, dates, and exported statements before relying on them in your work.</p>
+
+      <h2>Reminders</h2>
+      <p>When reminders are enabled, Client Ledger schedules local iPhone notifications for unpaid balances with a promised payment date. By default, a notification does not show a client name or amount. You may choose to show a client name in Settings.</p>
+      <p>iOS limits the number of future local notifications an app can schedule. If there are more reminders than iOS can hold, Client Ledger keeps the closest dates scheduled and adds later reminders as their dates get closer. If you previously denied notification permission, use the button in Ledger &amp; Reminders to open iPhone Settings and enable notifications.</p>
+
+      <h2>Back up, restore, and export</h2>
+      <p>In Settings, open Backup &amp; Export to create a backup, preview a backup before replacing local data, or export ledger data. Backups and exports are created on your device. Use the iOS share sheet to save or send them to a destination you choose.</p>
+      <p>Keep a copy of important backups somewhere you control. Restoring a backup replaces the current local ledger after you confirm it. Starting a new ledger also saves your current records as a safety backup.</p>
+
+      <h2>Lifetime Pro</h2>
+      <p>Client Ledger may offer a one-time Lifetime Pro purchase. Purchases and restores are handled by Apple through the App Store. If you have already purchased Lifetime Pro, choose Restore Purchases in the upgrade screen while signed in with the Apple Account that made the purchase.</p>
+
+      <h2>Need help?</h2>
+      <p>For a bug report or feature request, please open an issue in the <a href="https://github.com/destinationluo/ClientLedger/issues" target="_blank" rel="noopener noreferrer">Client Ledger support tracker</a>. Do not include sensitive client information in a public issue.</p>
+
+      <nav aria-label="Client Ledger legal links">
+        <a href="clientledger-privacy.html">Privacy Policy</a>
+        <a href="clientledger-terms.html">Terms of Use</a>
+      </nav>
+      <footer>© 2026 Client Ledger. All rights reserved.</footer>
+    </article>
+  </main>
+</body>
+</html>
